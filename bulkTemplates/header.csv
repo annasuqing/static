@@ -1,0 +1,25 @@
+Please follow the instructions carefully and ensure that information is accurate properly assigned and formatted.,,,,,,,,,,,,,,,,,
+"You will be presented with the error list (if any) and you will have the option to download the file, fix the errors and re-upload.",,,,,,,,,,,,,,,,,
+You will always have the option to fix any assignment mistakes one at a time by logging into your account.,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+INSTRUCTIONS,,,,,,,,,,,,,,,,,
+Allowed file format : Comma-separated CSV.,,,,,,,,,,,,,,,,,
+"If you do not wish to setup a particular line, simply delete the corresponding row.",,,,,,,,,,,,,,,,,
+"Extension numbers can be edited, but must be unique to each user.",,,,,,,,,,,,,,,,,
+Required fields can not be left blank.,,,,,,,,,,,,,,,,,
+Emergency Service Address can not be PO Box. It will be validated.,,,,,,,,,,,,,,,,,
+Emergency Service Address fields are required if DL = yes.,,,,,,,,,,,,,,,,,
+Enter user name against the desired phone number and phone make/model row.,,,,,,,,,,,,,,,,,
+"Choose your preferred User Language which used to view your account and notifications. E.g. English US (en_US), English UK (en_GB) or Canadian French (fr_CA).",,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+DO NOT make any changes to the first 5 columns and cells in the table that are greyed-out,,,,,,,,,,,,,,,,,
+DO NOT change the order of columns,,,,,,,,,,,,,,,,,
+DO NOT use commas in your data if you use CSV format,,,,,,,,,,,,,,,,,
+DO NOT delete any columns. DO NOT add any new columns,,,,,,,,,,,,,,,,,
+DO NOT setup more than 1000 users at once,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+---- BEGINNING of DATA ----,,,,,,,,,,,,,,,,,
+Mailbox ID,Phone Serial#,Direct Number (DID),User with Phone (DL),Phone Make/Model,Extension,First Name,Last Name,Email,Emergency Service Address - Customer Name,Emergency Service Address - Street Address,Emergency Service Address - Line 2,Emergency Service Address - City,Emergency Service Address - State/Province/County(UK),Emergency Service Address - Postal Code,Emergency Address - Country,User Language,Call Forwarding Number
+-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------
+*** DO NOT MODIFY ***,*** DO NOT MODIFY ***,*** DO NOT MODIFY ***,*** DO NOT MODIFY ***,*** DO NOT MODIFY ***,Required,Required,Required,Required,Required if DL=yes,Required if DL=yes,Optional,Required if DL=yes,Required if DL=yes,Required if DL=yes,Required if DL=yes,Required,Optional
+-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------

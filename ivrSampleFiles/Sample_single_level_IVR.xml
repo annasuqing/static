@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MultilevelIVR>
+  <Menu>
+    <Extension>1001</Extension>
+    <Name>Single menu</Name>
+    <Language>English (United States)</Language>
+    <Prompt>
+      <Text>Thank you for calling Acme Corporation. For the Sales Department press 1, to leave a message press 2, for the dial by name directory press 3, to schedule an appointment press 4. If you know the extension number of your party, you may dial it any time.</Text>
+      <TextToSpeech>true</TextToSpeech>
+    </Prompt>
+    <CallHandling>
+      <DigitKeyInput>
+        <Key>1</Key>
+        <Action>ForwardToExtension</Action>
+        <Destination>102</Destination>
+      </DigitKeyInput>
+      <DigitKeyInput>
+        <Key>2</Key>
+        <Action>ForwardToVoiceMail</Action>
+        <Destination>101</Destination>
+      </DigitKeyInput>
+      <DigitKeyInput>
+        <Key>3</Key>
+        <Action>ConnectToDialByNameDirectory</Action>
+      </DigitKeyInput>
+      <DigitKeyInput>
+        <Key>4</Key>
+        <Action>ForwardToExternal</Action>
+        <Destination>6501231212</Destination>
+      </DigitKeyInput>
+      <SpecialKeyInput>
+        <Key>#</Key>
+        <Action>ReturnToRootMenu</Action>
+      </SpecialKeyInput>
+      <SpecialKeyInput>
+        <Key>*</Key>
+        <Action>RepeatMenuGreeting</Action>
+      </SpecialKeyInput>
+      <NoInput>
+        <Action>ForwardToExtension</Action>
+        <Destination>102</Destination>
+      </NoInput>
+    </CallHandling>
+  </Menu>
+</MultilevelIVR>

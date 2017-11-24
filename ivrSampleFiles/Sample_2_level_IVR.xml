@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MultilevelIVR>
+  <Menu>
+    <Extension>1001</Extension>
+    <Name>Main Menu</Name>
+    <Language>English (United States)</Language>
+    <Prompt>
+      <Name>company main greeting.mp3</Name>
+      <Text>Thank you for calling Acme Corporation. For US Sales press 1, for UK Sales press 2. To connect to the dial by name directory press 3. If you know the extension number of your party, you may dial it at any time.</Text>
+      <TextToSpeech>false</TextToSpeech>
+    </Prompt>
+    <CallHandling>
+      <DigitKeyInput>
+        <Key>1</Key>
+        <Action>ForwardToExtension</Action>
+        <Destination>1002</Destination>
+      </DigitKeyInput>
+      <DigitKeyInput>
+        <Key>2</Key>
+        <Action>ForwardToExtension</Action>
+        <Destination>1003</Destination>
+      </DigitKeyInput>
+      <DigitKeyInput>
+        <Key>3</Key>
+        <Action>ConnectToDialByNameDirectory</Action>
+      </DigitKeyInput>
+      <SpecialKeyInput>
+        <Key>#</Key>
+        <Action>ReturnToRootMenu</Action>
+      </SpecialKeyInput>
+      <SpecialKeyInput>
+        <Key>*</Key>
+        <Action>RepeatMenuGreeting</Action>
+      </SpecialKeyInput>
+      <NoInput>
+        <Action>Disconnect</Action>
+      </NoInput>
+    </CallHandling>
+  </Menu>
+  <Menu>
+    <Extension>1002</Extension>
+    <Name>US Sales menu</Name>
+    <Language>English (United States)</Language>
+    <Prompt>
+      <Text>For Hardware Sales press 1, for Software Sales press 2. To track you order status press 3. To leave a voice message, press 4.</Text>
+      <TextToSpeech>true</TextToSpeech>
+    </Prompt>
+    <CallHandling>
+      <DigitKeyInput>
+        <Key>1</Key>
+        <Action>ForwardToExtension</Action>
+        <Destination>102</Destination>
+      </DigitKeyInput>
+      <DigitKeyInput>
+        <Key>2</Key>
+        <Action>ForwardToExtension</Action>
+        <Destination>103</Destination>
+      </DigitKeyInput>
+      <DigitKeyInput>
+        <Key>3</Key>
+        <Action>ForwardToExternal</Action>
+        <Destination>6501231212</Destination>
+      </DigitKeyInput>
+      <DigitKeyInput>
+        <Key>4</Key>
+        <Action>ForwardToVoiceMail</Action>
+        <Destination>104</Destination>
+      </DigitKeyInput>
+      <SpecialKeyInput>
+        <Key>#</Key>
+        <Action>ReturnToPreviousMenu</Action>
+      </SpecialKeyInput>
+      <SpecialKeyInput>
+        <Key>*</Key>
+        <Action>RepeatMenuGreeting</Action>
+      </SpecialKeyInput>
+      <NoInput>
+        <Action>ForwardToExtension</Action>
+        <Destination>1001</Destination>
+      </NoInput>
+    </CallHandling>
+  </Menu>
+  <Menu>
+    <Extension>1003</Extension>
+    <Name>CA Sales menu</Name>
+    <Language>English (United States)</Language>
+    <Prompt>
+      <Text>For Hardware Sales Press 1, for Software Sales Press 2. To track you order status press 3. To leave a voice message, press 4.</Text>
+      <TextToSpeech>true</TextToSpeech>
+    </Prompt>
+    <CallHandling>
+      <DigitKeyInput>
+        <Key>1</Key>
+        <Action>ForwardToExtension</Action>
+        <Destination>112</Destination>
+      </DigitKeyInput>
+      <DigitKeyInput>
+        <Key>2</Key>
+        <Action>ForwardToExtension</Action>
+        <Destination>113</Destination>
+      </DigitKeyInput>
+      <DigitKeyInput>
+        <Key>3</Key>
+        <Action>ForwardToExternal</Action>
+        <Destination>6501231234</Destination>
+      </DigitKeyInput>
+      <DigitKeyInput>
+        <Key>4</Key>
+        <Action>ForwardToVoiceMail</Action>
+        <Destination>114</Destination>
+      </DigitKeyInput>
+      <SpecialKeyInput>
+        <Key>#</Key>
+        <Action>ReturnToPreviousMenu</Action>
+      </SpecialKeyInput>
+      <SpecialKeyInput>
+        <Key>*</Key>
+        <Action>RepeatMenuGreeting</Action>
+      </SpecialKeyInput>
+      <NoInput>
+        <Action>ForwardToExtension</Action>
+        <Destination>1001</Destination>
+      </NoInput>
+    </CallHandling>
+  </Menu>
+</MultilevelIVR>

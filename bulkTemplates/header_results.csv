@@ -1,0 +1,10 @@
+INSTRUCTIONS,,,,,,,,,,,,,,,,,,
+"Users with 'Invalid Emergency Address' error are enabled, but their E-911 provisioning failed. Please login to account and setup E-911 address manually so that user can use the line.",,,,,,,,,,,,,,,,,,
+"Users with any other errors could not be enabled. If you want to enable these users, please download template again, fill in accurate data, and upload.",,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+---- BEGINNING of DATA ----,,,,,,,,,,,,,,,,,,
+Mailbox ID,Phone Serial#,Direct Number (DID),User with Phone (DL),Phone Make/Model,ERRORS,Extension,First Name,Last Name,Email,Emergency Service Address - Customer Name,Emergency Service Address - Street Address,Emergency Service Address - Line 2,Emergency Service Address - City,Emergency Service Address - State/Province/County(UK),Emergency Service Address - Postal Code,Emergency Address - Country,User Language,Call Forwarding Number
+-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------
+*** DO NOT MODIFY ***,*** DO NOT MODIFY ***,*** DO NOT MODIFY ***,*** DO NOT MODIFY ***,*** DO NOT MODIFY ***,Description of errors,Required,Required,Required,Required,Required if DL=yes,Required if DL=yes,Optional,Required if DL=yes,Required if DL=yes,Required if DL=yes,Required if DL=yes,Required,Optional
+-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------
