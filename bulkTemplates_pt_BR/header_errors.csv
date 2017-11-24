@@ -1,0 +1,26 @@
+Siga as instruções cuidadosamente e certifique-se de que as informações sejam precisas e adequadamente atribuídas e formatadas.,,,,,,,,,,,,,,,,,,
+"Você verá a lista de erros (se houver) e você terá a opção de fazer o download do arquivo, corrigir error e fazer o upload novamente.",,,,,,,,,,,,,,,,,,
+"Você sempre terá a opção de corrigir erros de atribuição um de cada vez, basta fazer login na sua conta.",,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+INSTRUÇÕES,,,,,,,,,,,,,,,,,,
+Corrija os erros na coluna Erro nas células apropriadas. Faça o upload deste arquivo assim que todos os erros forem corrigidos. ,,,,,,,,,,,,,,,,,,
+Formato de arquivo permitido: CSV separado por vírgula,,,,,,,,,,,,,,,,,,
+"Caso não queira configurar uma determinada linha, basta excluir a linha correspondente.",,,,,,,,,,,,,,,,,,
+"Números de ramais podem ser editados, mas cada usuário deve ter um número exclusivo.",,,,,,,,,,,,,,,,,,
+Os campos obrigatórios não podem ficar em branco.,,,,,,,,,,,,,,,,,,
+O Endereço do serviço de emergência não pode ser uma caixa postal. Será validado.,,,,,,,,,,,,,,,,,,
+Os campos do Endereço do serviço de emergência são obrigatórios se DL = sim.,,,,,,,,,,,,,,,,,,
+Insira um nome de usuário na linha do número de telefone e marca/modelo do telefone desejado.,,,,,,,,,,,,,,,,,,
+"Selecione o Idioma do usuário de sua preferência que será usado para visualizar sua conta e suas notificações. Por exemplo, Inglês americano (en_US), Inglês britânico (en_GB) ou Francês (Canadá) (fr_CA).",,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+NÃO faça nenhuma alteração nas cinco primeiras colunas e células na tabela que estão acinzentadas,,,,,,,,,,,,,,,,,,
+NÃO altere a ordem das colunas,,,,,,,,,,,,,,,,,,
+NÃO coloque vírgulas entre os dados se estiver usando o formato CSV,,,,,,,,,,,,,,,,,,
+NÃO exclua nenhuma coluna NÃO adicione novas colunas,,,,,,,,,,,,,,,,,,
+NÃO configure mais de 1000 de uma só vez,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+---- INÍCIO dos DADOS ----,,,,,,,,,,,,,,,,,,
+ID da caixa de correio,Número de série do telefone,Número direto (DID),Usuários com telefone (DL),Marca/modelo do telefone,ERROS,Ramal,Nome,Sobrenome,Email,Endereço do serviço de emergência - Nome do cliente,Endereço do serviço de emergência - Endereço,Endereço do serviço de emergência - Linha 2,Endereço do serviço de emergência - Cidade/Localização/Município,Endereço do serviço de emergência - Estado/Província/Condado,Endereço do serviço de emergência - Código postal,Endereço de emergência - País,Idioma do usuário,Número de encaminhamento de chamadas
+-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------
+*** NÃO ALTERAR ***,*** NÃO ALTERAR ***,*** NÃO ALTERAR ***,*** NÃO ALTERAR ***,*** NÃO ALTERAR ***,Descrição dos erros,Obrigatório,Obrigatório,Obrigatório,Obrigatório,Obrigatório se DL=sim,Obrigatório se DL=sim,Opcional,Obrigatório se DL=sim,Obrigatório se DL=sim,Obrigatório se DL=sim,Obrigatório se DL=sim,Obrigatório,Opcional
+-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------,-------------------
