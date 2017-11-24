@@ -1,0 +1,120 @@
+Web\src\desktop\greetings\localizedUtils\en_US.js
+greetings:{
+        'en_US':{
+            GREETING_MASTER_BH_THANK_YOU_1: 'Thank you for calling {0}. If you know your party\'s extension you may dial it at any time. For the Operator press 0',
+            GREETING_MASTER_BH_THANK_YOU_2:' or stay on the line',
+
+            GREETING_MASTER_AH_THANK_YOU_1:'Thank you for calling {0}. We are currently closed.',
+
+            GREETING_MASTER_DIAL_BY_NAME_PRESS:' For the Dial-By-Name directory press {0}.',
+
+            GREETING_CONNECT_PROMPT_LABEL: '"Please hold while I try to connect you."',
+
+            GREETING_VOICE_MAIL_LABEL:'"Your call has been forwarded to the voicemail for {0}. No one is available to take your call. At the tone, please record your message. When you\'ve finished recording, you may hang up or press the # key for more options."',
+
+            GREETING_ANNOUNCEMENT_TEXT_NO_ONE_AVAILABLE:'"No one is available to take your call. Thank you for calling. Goodbye!"',
+
+            GREETING_NOTE_CALL_BEING_RECORDED: '"This call is being recorded. If you do not wish to be recorded, please disconnect at this time."',
+
+            GREETING_CALL_RECORDING_ON_STOP_LABEL: '"This call has been recorded."',
+
+            GREETING_INTRODUCTORY_LABEL_THANK_YOU:'"Thank you for calling {0}"',
+
+            GREETING_INTRODUCTORY_TEMPLATE : '"Thank you for calling [Extension Name]"',
+
+            GREETING_UNAVAILABLE_LABEL:'"I\'m sorry. No one is available to take your call. Thank you for calling. Goodbye!"',
+
+            GREETING_DEPARTMENT_LABEL_THANK_YOU:'"Thank you for calling {0}. Please wait while we connect you to the next available agent."',
+            GREETING_DEPARTMENT_CLOSED_THANK_YOU:'"Thank you for calling {0}. We are currently closed. Please call back during our regular business hours. Thank you for calling. Goodbye!"',
+
+            GREETING_DEPARTMENT_VOICEMAIL_LABEL:'"All of our agents are busy helping other customers. At the tone, please record your message. When you\'ve finished recording, you may hang up or press the # key for more options."',
+
+            GREETING_DEPARTMENT_UNAVAILABLE_LABEL:'"We are currently experiencing heavy call volumes..."',
+
+            GREETING_DEPARTMENT_VOICEMAIL_CLOSED_LABEL:'"Thank you for calling {0}. We are currently closed. At the tone, please leave your message. When you\'ve finished recording, you may hang up or press the # key for more options."',
+
+            GREETING_INTERRUPT_PROMPT_LABEL_THANK_AND_STAY:'Thank you, Stay on the line',
+            GREETING_INTERRUPT_PROMPT_LABEL_APPRECIATE_PATIENCE_AND_STAY:'Appreciate Patience, Stay on the line',
+            GREETING_INTERRUPT_PROMPT_LABEL_THANK_AND_WAIT:'Thank you, Wait for Agent',
+            GREETING_INTERRUPT_PROMPT_LABEL_APPRECIATE_PATIENCE_AND_WAIT:'Appreciate Patience, Wait for Agent',
+
+            GREETING_SLG_LABEL_THANK_YOU:'"Thank you for calling {0}."',
+            MAILBOX_FULL : 'Hello. The mailbox is full. Thank you for calling. Goodbye.',
+            NUMBER_UNAVAILABLE_FROM_CALLING_AREA :  'I\'m sorry. The number you dialed can not be reached from your calling area. Goodbye.',
+            NO_CID_PROMPT : 'I\'m sorry. Calls that do not display caller ID information are not accepted. Please unblock your caller ID information and try your call again, or call back from a different number. Goodbye.',
+            PAY_PHONES_PROMPT : "I'm sorry, the number you dialed cannot accept calls from payphones at this time. Please try your call again later. Goodbye."
+        }
+}
+
+Web\src\app\lang\common\index-en_US.js
+GREETINGS:{
+        'en_US':{
+            GREETING_MASTER_BH_THANK_YOU_1: 'Thank you for calling {companyName}. If you know your party\'s extension you may dial it at any time. For the Operator press 0',
+            GREETING_MASTER_BH_THANK_YOU_2:' or stay on the line',
+
+            GREETING_MASTER_AH_THANK_YOU_1:'Thank you for calling {companyName}. We are currently closed.',
+
+            GREETING_MASTER_DIAL_BY_NAME_PRESS:' For the Dial-By-Name directory press {directoryExtension}.',
+
+            GREETING_CONNECT_PROMPT_LABEL: '"Please hold while I try to connect you."',
+
+            GREETING_VOICE_MAIL_LABEL:'"Your call has been forwarded to the voicemail for {name}. No one is available to take your call. At the tone, please record your message. When you\'ve finished recording, you may hang up or press the # key for more options."',
+
+            GREETING_ANNOUNCEMENT_TEXT_NO_ONE_AVAILABLE:'"No one is available to take your call. Thank you for calling. Goodbye!"',
+
+            GREETING_NOTE_CALL_BEING_RECORDED: '"This call is being recorded. If you do not wish to be recorded, please disconnect at this time."',
+
+            GREETING_CALL_RECORDING_ON_STOP_LABEL: '"This call has been recorded."',
+
+            GREETING_INTRODUCTORY_LABEL_THANK_YOU:'"Thank you for calling {name}"',
+
+            GREETING_UNAVAILABLE_LABEL:'"I\'m sorry. No one is available to take your call. Thank you for calling. Goodbye!"',
+
+            GREETING_DEPARTMENT_LABEL_THANK_YOU:'"Thank you for calling {name}. Please wait while we connect you to the next available agent."',
+            GREETING_DEPARTMENT_CLOSED_THANK_YOU:'"Thank you for calling {companyName}. We are currently closed. Please call back during our regular business hours. Thank you for calling. Goodbye!"',
+
+            GREETING_DEPARTMENT_VOICEMAIL_LABEL:'"All of our agents are busy helping other customers. At the tone, please record your message. When you\'ve finished recording, you may hang up or press the # key for more options."',
+
+            GREETING_DEPARTMENT_UNAVAILABLE_LABEL:'"We are currently experiencing heavy call volumes..."',
+
+            GREETING_DEPARTMENT_VOICEMAIL_CLOSED_LABEL:'"Thank you for calling {name}. We are currently closed. At the tone, please leave your message. When you\'ve finished recording, you may hang up or press the # key for more options."',
+
+            GREETING_INTERRUPT_PROMPT_LABEL_THANK_AND_STAY:'Thank you, Stay on the line',
+            GREETING_INTERRUPT_PROMPT_LABEL_APPRECIATE_PATIENCE_AND_STAY:'Appreciate Patience, Stay on the line',
+            GREETING_INTERRUPT_PROMPT_LABEL_THANK_AND_WAIT:'Thank you, Wait for Agent',
+            GREETING_INTERRUPT_PROMPT_LABEL_APPRECIATE_PATIENCE_AND_WAIT:'Appreciate Patience, Wait for Agent',
+
+            GREETING_SLG_LABEL_THANK_YOU:'"Thank you for calling {name}."',
+            MAILBOX_FULL : 'Hello. The mailbox is full. Thank you for calling. Goodbye.',
+            NUMBER_UNAVAILABLE_FROM_CALLING_AREA :  'I\'m sorry. The number you dialed can not be reached from your calling area. Goodbye.',
+            NO_CID_PROMPT : 'I\'m sorry. Calls that do not display caller ID information are not accepted. Please unblock your caller ID information and try your call again, or call back from a different number. Goodbye.',
+            PAY_PHONES_PROMPT : "I'm sorry, the number you dialed cannot accept calls from payphones at this time. Please try your call again later. Goodbye."
+        }
+}
+
+Web\src\mobile\core\js\src\greetings.js
+GREETING_TEXTS: {
+        'en_US': {
+            MASTER_BUSINESS: "\"Thank you for calling %company%. If you know your party's extension you may dial it at any time. For the Operator press 0. For the Dial-by-Name Directory press %extension%.\"",
+            MASTER_BUSINESS_DBN_OFF: "\"Thank you for calling %company%. If you know your party's extension you may dial it at any time. For the Operator press 0.\"",
+            MASTER_AFTER: "\"Thank you for calling %company%. We are currently closed. For the Dial-by-Name Directory press %extension%.\"",
+            MASTER_AFTER_DBN_OFF: "\"Thank you for calling %company%. We are currently closed.\"",
+            INTRODUCTORY_USER: "\"Thank you for calling [%name%].\"",
+            INTRODUCTORY_DEPARTMENT: "\"Thank you for calling [%name%]. Please wait while we connect you to the next available agent.\"",
+            INTRODUCTORY_GROUP: '\"Thank you for calling [%name%].\"',
+            VOICEMAIL_DEPARTMENT_BUSINESS: "\"All of our agents are busy helping other customers. At the tone, please record your message. When you've finished recording, you may hang up or press the # key for more options.\"",
+            VOICEMAIL_DEPARTMENT_AFTER: "\"Thank you for calling [%name%]. We are currently closed. At the tone, please leave a message. When you've finished recording, you may hang up or press the # key for more options.\"",
+            VOICEMAIL_GENERAL: "\"Your call has been forwarded to the voicemail for [%name%]. No one is available to take your call. At the tone, please record your message. When you've finished recording, you may hang up or press the # key for more options.\"",
+            UNAVAILABLE_GENERAL: "\"I'm sorry. No one is available to take your call. Thank you for calling. Goodbye!\"",
+            UNAVAILABLE_DEPARTMENT_GENERAL: "\"We are currently experiencing heavy call volumes...\"",
+            ANNOUNCEMENT_GENERAL: "\"No one is available to take your call. Thank you for calling. Goodbye!\"",
+            ANNOUNCEMENT_DEPARTMENT: "\"Thank you for calling [%name%]. We are currently closed. Please call back during our regular business hours. Thank you for calling. Goodbye!\"",
+            CALL_RECORDING_ON_START: "\"This call is being recorded. If you do not wish to be recorded, please disconnect at this time.\"",
+            CALL_RECORDING_ON_STOP: "\"This call has been recorded.\"",
+            INTERRUPT_PROMPT_1: "\"Thank you, Stay on the line.\"",
+            INTERRUPT_PROMPT_2: "\"Appreciate Patience, Stay on the line.\"",
+            INTERRUPT_PROMPT_3: "\"Thank you, Wait for Agent.\"",
+            INTERRUPT_PROMPT_4: "\"Appreciate Patience, Wait for Agent.\"",
+            SET_CONNECT_PROMPT: "\"Please hold while I try to connect you.\""
+        }
+}

@@ -1,0 +1,120 @@
+Web\src\desktop\greetings\localizedUtils\en_US.js
+greetings:{
+        'en_US':{
+            GREETING_MASTER_BH_THANK_YOU_1: '{0}にお電話いただき、ありがとうございます。相手の内線番号を知っている場合は、いつでも電話をかけることができます。オペレーターを呼び出すには、「0」を押すか、',
+            GREETING_MASTER_BH_THANK_YOU_2:' このままお待ちください',
+
+            GREETING_MASTER_AH_THANK_YOU_1:'{0}にお電話いただき、ありがとうございます。現在営業は終了しております。',
+
+            GREETING_MASTER_DIAL_BY_NAME_PRESS:' ダイヤルバイネームディレクトリの場合、「{0}」を押します。',
+
+            GREETING_CONNECT_PROMPT_LABEL: '「順番におつなぎしていますのでお待ちください。」',
+
+            GREETING_VOICE_MAIL_LABEL:'「おかけになった電話は{0}のボイスメールに転送されました。お客様の電話に対応できる者がおりません。発信音の後にメッセージを録音してください。録音を終えたら、電話を切るか、#キーを押して他のオプションを選んでください。」',
+
+            GREETING_ANNOUNCEMENT_TEXT_NO_ONE_AVAILABLE:'「お客様の電話に対応できる者がおりません。お電話ありがとうございました。失礼いたします。」',
+
+            GREETING_NOTE_CALL_BEING_RECORDED: '「この通話は録音されています。録音を希望しない場合は、通話を終了してください。」',
+
+            GREETING_CALL_RECORDING_ON_STOP_LABEL: '「この通話は録音されています。」',
+
+            GREETING_INTRODUCTORY_LABEL_THANK_YOU:'「{0}にお電話いただき、ありがとうございます」',
+
+            GREETING_INTRODUCTORY_TEMPLATE : '「[内線名]にお電話いただき、ありがとうございます」',
+
+            GREETING_UNAVAILABLE_LABEL:'「申し訳ありません。お客様の電話に対応できる者がおりません。お電話ありがとうございました。失礼いたします。」',
+
+            GREETING_DEPARTMENT_LABEL_THANK_YOU:'「{0}にお電話いただき、ありがとうございます。対応可能なエージェントにおつなぎしますので、お待ちください。」',
+            GREETING_DEPARTMENT_CLOSED_THANK_YOU:'「{0}にお電話いただき、ありがとうございます。現在営業は終了しております。通常の営業時間内におかけ直しください。お電話ありがとうございました。失礼いたします。」',
+
+            GREETING_DEPARTMENT_VOICEMAIL_LABEL:'「すべてのエージェントが他のお客様の対応中です。発信音の後にメッセージを録音してください。録音を終えたら、電話を切るか、#キーを押して他のオプションを選んでください。」',
+
+            GREETING_DEPARTMENT_UNAVAILABLE_LABEL:'「現在通話がたいへん混み合っております...」',
+
+            GREETING_DEPARTMENT_VOICEMAIL_CLOSED_LABEL:'「{0}にお電話いただき、ありがとうございます。現在営業は終了しております。発信音の後にメッセージを残してください。録音を終えたら、電話を切るか、#キーを押して他のオプションを選んでください。」',
+
+            GREETING_INTERRUPT_PROMPT_LABEL_THANK_AND_STAY:'ありがとうございます。このままお待ちください',
+            GREETING_INTERRUPT_PROMPT_LABEL_APPRECIATE_PATIENCE_AND_STAY:'お待ちいただきありがとうございます。このままお待ちください',
+            GREETING_INTERRUPT_PROMPT_LABEL_THANK_AND_WAIT:'ありがとうございます。エージェントをお待ちください',
+            GREETING_INTERRUPT_PROMPT_LABEL_APPRECIATE_PATIENCE_AND_WAIT:'お待ちいただきありがとうございます。エージェントをお待ちください',
+
+            GREETING_SLG_LABEL_THANK_YOU:'「{0}にお電話いただき、ありがとうございます。」',
+            MAILBOX_FULL : 'いつもご利用ありがとうございます。メールボックスがいっぱいです。お電話ありがとうございました。失礼いたします。',
+            NUMBER_UNAVAILABLE_FROM_CALLING_AREA :  '申し訳ありません。おかけになった番号は、お客様の通話エリアからはつながりません。失礼いたします。',
+            NO_CID_PROMPT : '申し訳ありません。発信者番号情報が表示されない通話は承諾されません。発信者番号情報のブロックを解除してもう一度電話してみるか、別の番号からかけ直してください。失礼いたします。',
+            PAY_PHONES_PROMPT : "I'm sorry, the number you dialed cannot accept calls from payphones at this time. Please try your call again later. Goodbye."
+        }
+}
+
+Web\src\app\lang\common\index-en_US.js
+GREETINGS:{
+        'en_US':{
+            GREETING_MASTER_BH_THANK_YOU_1: '{companyName}にお電話いただき、ありがとうございます。相手の内線番号を知っている場合は、いつでも電話をかけることができます。オペレーターを呼び出すには、「0」を押すか、',
+            GREETING_MASTER_BH_THANK_YOU_2:' このままお待ちください',
+
+            GREETING_MASTER_AH_THANK_YOU_1:'{companyName}にお電話いただき、ありがとうございます。現在営業は終了しております。',
+
+            GREETING_MASTER_DIAL_BY_NAME_PRESS:' ダイヤルバイネームディレクトリをご利用の場合、「{directoryExtension}」を押します。',
+
+            GREETING_CONNECT_PROMPT_LABEL: '「順番におつなぎしていますのでお待ちください。」',
+
+            GREETING_VOICE_MAIL_LABEL:'「おかけになった電話は、{name}のボイスメールに転送されました。お客様の電話に対応できる者がおりません。発信音の後にメッセージを録音してください。録音を終えたら、電話を切るか、#キーを押して他のオプションを選んでください。」',
+
+            GREETING_ANNOUNCEMENT_TEXT_NO_ONE_AVAILABLE:'「お客様の電話に対応できる者がおりません。お電話ありがとうございました。失礼いたします。」',
+
+            GREETING_NOTE_CALL_BEING_RECORDED: '「この通話は録音されています。録音を希望しない場合は、通話を終了してください。」',
+
+            GREETING_CALL_RECORDING_ON_STOP_LABEL: '「この通話は録音されています。」',
+
+            GREETING_INTRODUCTORY_LABEL_THANK_YOU:'「{name}にお電話いただき、ありがとうございます」',
+
+            GREETING_UNAVAILABLE_LABEL:'「申し訳ありません。お客様の電話に対応できる者がおりません。お電話ありがとうございました。失礼いたします。」',
+
+            GREETING_DEPARTMENT_LABEL_THANK_YOU:'「{name}にお電話いただき、ありがとうございます。対応可能なエージェントにおつなぎしますので、お待ちください。」',
+            GREETING_DEPARTMENT_CLOSED_THANK_YOU:'「{companyName}にお電話いただき、ありがとうございます。現在営業は終了しております。通常の営業時間内におかけ直しください。お電話ありがとうございました。失礼いたします。」',
+
+            GREETING_DEPARTMENT_VOICEMAIL_LABEL:'「すべてのエージェントが他のお客様の対応中です。発信音の後にメッセージを録音してください。録音を終えたら、電話を切るか、#キーを押して他のオプションを選んでください。」',
+
+            GREETING_DEPARTMENT_UNAVAILABLE_LABEL:'「現在通話がたいへん混み合っております...」',
+
+            GREETING_DEPARTMENT_VOICEMAIL_CLOSED_LABEL:'「{name}にお電話いただき、ありがとうございます。現在営業は終了しております。発信音の後にメッセージを残してください。録音を終えたら、電話を切るか、#キーを押して他のオプションを選んでください。」',
+
+            GREETING_INTERRUPT_PROMPT_LABEL_THANK_AND_STAY:'ありがとうございます。このままお待ちください',
+            GREETING_INTERRUPT_PROMPT_LABEL_APPRECIATE_PATIENCE_AND_STAY:'お待ちいただきありがとうございます。このままお待ちください',
+            GREETING_INTERRUPT_PROMPT_LABEL_THANK_AND_WAIT:'ありがとうございます。エージェントをお待ちください',
+            GREETING_INTERRUPT_PROMPT_LABEL_APPRECIATE_PATIENCE_AND_WAIT:'お待ちいただきありがとうございます。エージェントをお待ちください',
+
+            GREETING_SLG_LABEL_THANK_YOU:'「{name}にお電話いただき、ありがとうございます。」',
+            MAILBOX_FULL : 'いつもご利用ありがとうございます。メールボックスがいっぱいです。お電話ありがとうございました。失礼いたします。',
+            NUMBER_UNAVAILABLE_FROM_CALLING_AREA :  '申し訳ありません。おかけになった番号は、お客様の通話エリアからはつながりません。失礼いたします。',
+            NO_CID_PROMPT : '申し訳ありません。発信者番号情報が表示されない通話は承諾されません。発信者番号情報のブロックを解除してもう一度電話してみるか、別の番号からかけ直してください。失礼いたします。',
+            PAY_PHONES_PROMPT : "I'm sorry, the number you dialed cannot accept calls from payphones at this time. Please try your call again later. Goodbye."
+        }
+}
+
+Web\src\mobile\core\js\src\greetings.js
+GREETING_TEXTS: {
+        'en_US': {
+            MASTER_BUSINESS: "\"Thank you for calling %company%. If you know your party's extension you may dial it at any time. For the Operator press 0. For the Dial-by-Name Directory press %extension%.\"",
+            MASTER_BUSINESS_DBN_OFF: "\"Thank you for calling %company%. If you know your party's extension you may dial it at any time. For the Operator press 0.\"",
+            MASTER_AFTER: "\"Thank you for calling %company%. We are currently closed. For the Dial-by-Name Directory press %extension%.\"",
+            MASTER_AFTER_DBN_OFF: "\"Thank you for calling %company%. We are currently closed.\"",
+            INTRODUCTORY_USER: "\"Thank you for calling [%name%].\"",
+            INTRODUCTORY_DEPARTMENT: "\"Thank you for calling [%name%]. Please wait while we connect you to the next available agent.\"",
+            INTRODUCTORY_GROUP: '「[%name%]にお電話いただき、ありがとうございます。」',
+            VOICEMAIL_DEPARTMENT_BUSINESS: "\"All of our agents are busy helping other customers. At the tone, please record your message. When you've finished recording, you may hang up or press the # key for more options.\"",
+            VOICEMAIL_DEPARTMENT_AFTER: "\"Thank you for calling [%name%]. We are currently closed. At the tone, please leave a message. When you've finished recording, you may hang up or press the # key for more options.\"",
+            VOICEMAIL_GENERAL: "\"Your call has been forwarded to the voicemail for [%name%]. No one is available to take your call. At the tone, please record your message. When you've finished recording, you may hang up or press the # key for more options.\"",
+            UNAVAILABLE_GENERAL: "\"I'm sorry. No one is available to take your call. Thank you for calling. Goodbye!\"",
+            UNAVAILABLE_DEPARTMENT_GENERAL: "\"We are currently experiencing heavy call volumes...\"",
+            ANNOUNCEMENT_GENERAL: "\"No one is available to take your call. Thank you for calling. Goodbye!\"",
+            ANNOUNCEMENT_DEPARTMENT: "\"Thank you for calling [%name%]. We are currently closed. Please call back during our regular business hours. Thank you for calling. Goodbye!\"",
+            CALL_RECORDING_ON_START: "\"This call is being recorded. If you do not wish to be recorded, please disconnect at this time.\"",
+            CALL_RECORDING_ON_STOP: "\"This call has been recorded.\"",
+            INTERRUPT_PROMPT_1: "\"Thank you, Stay on the line.\"",
+            INTERRUPT_PROMPT_2: "\"Appreciate Patience, Stay on the line.\"",
+            INTERRUPT_PROMPT_3: "\"Thank you, Wait for Agent.\"",
+            INTERRUPT_PROMPT_4: "\"Appreciate Patience, Wait for Agent.\"",
+            SET_CONNECT_PROMPT: "\"Please hold while I try to connect you.\""
+        }
+}

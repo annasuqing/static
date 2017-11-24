@@ -1,0 +1,120 @@
+Web\src\desktop\greetings\localizedUtils\en_US.js
+greetings:{
+        'en_US':{
+            GREETING_MASTER_BH_THANK_YOU_1: 'Agradecemos sua ligação {0}. Se souber o ramal da parte, é possível discá-lo a qualquer momento. Para acessar o Operador, pressione 0',
+            GREETING_MASTER_BH_THANK_YOU_2:' ou permaneça na linha',
+
+            GREETING_MASTER_AH_THANK_YOU_1:'Agradecemos sua ligação {0}. No momento estamos fechados.',
+
+            GREETING_MASTER_DIAL_BY_NAME_PRESS:' Para acessar o diretório de discagem por nome, pressione {0}.',
+
+            GREETING_CONNECT_PROMPT_LABEL: '"Aguarde enquanto tentamos conectá-lo."',
+
+            GREETING_VOICE_MAIL_LABEL:'"Sua chamada foi encaminhada para a caixa postal de {0}. Ninguém está disponível para atender sua chamada. Após o sinal, grave sua mensagem. Quando terminar sua gravação, você pode desligar ou pressionar a tecla # para ouvir mais opções."',
+
+            GREETING_ANNOUNCEMENT_TEXT_NO_ONE_AVAILABLE:'"Ninguém está disponível para atender a sua chamada. Agradecemos sua ligação. Até logo!"',
+
+            GREETING_NOTE_CALL_BEING_RECORDED: '"Esta chamada está sendo gravada. Se não quiser ser gravado, desconecte-se neste momento."',
+
+            GREETING_CALL_RECORDING_ON_STOP_LABEL: '"Esta chamada foi gravada."',
+
+            GREETING_INTRODUCTORY_LABEL_THANK_YOU:'"Agradecemos sua ligação {0}"',
+
+            GREETING_INTRODUCTORY_TEMPLATE : '"Agradecemos sua ligação para [nome do ramal]"',
+
+            GREETING_UNAVAILABLE_LABEL:'"Desculpe. Ninguém está disponível para atender sua chamada. Agradecemos sua ligação. Até logo!"',
+
+            GREETING_DEPARTMENT_LABEL_THANK_YOU:'"Agradecemos sua ligação {0}. Aguarde enquanto conectamos você com um agente disponível".',
+            GREETING_DEPARTMENT_CLOSED_THANK_YOU:'"Agradecemos sua ligação {0}. No momento estamos fechados. Ligue novamente durante o horário comercial. Agradecemos sua ligação. Até logo!"',
+
+            GREETING_DEPARTMENT_VOICEMAIL_LABEL:'“Todos os nossos agentes estão ocupados ajudando outros clientes. Após o sinal, grave sua mensagem. Quando terminar sua gravação, você pode desligar ou pressionar a tecla # para ouvir mais opções."',
+
+            GREETING_DEPARTMENT_UNAVAILABLE_LABEL:'"No momento estamos com grandes volumes de chamadas..."',
+
+            GREETING_DEPARTMENT_VOICEMAIL_CLOSED_LABEL:'"Agradecemos sua ligação {0}. No momento estamos fechados. Após o sinal, deixe sua mensagem. Quando terminar sua gravação, você pode desligar ou pressionar a tecla # para ouvir mais opções."',
+
+            GREETING_INTERRUPT_PROMPT_LABEL_THANK_AND_STAY:'Obrigado, continue na linha',
+            GREETING_INTERRUPT_PROMPT_LABEL_APPRECIATE_PATIENCE_AND_STAY:'Agradecemos sua paciência, continue na linha',
+            GREETING_INTERRUPT_PROMPT_LABEL_THANK_AND_WAIT:'Obrigado, aguarde o agente',
+            GREETING_INTERRUPT_PROMPT_LABEL_APPRECIATE_PATIENCE_AND_WAIT:'Agradecemos sua paciência, aguarde o agente',
+
+            GREETING_SLG_LABEL_THANK_YOU:'"Agradecemos sua ligação {0}."',
+            MAILBOX_FULL : 'Olá. A caixa de correio está cheia. Agradecemos sua ligação. Até logo.',
+            NUMBER_UNAVAILABLE_FROM_CALLING_AREA :  'Desculpe. Não é possível realizar uma chamada para o número que você discou na área em que você se encontra. Até logo.',
+            NO_CID_PROMPT : 'Desculpe. Chamadas que não exibem as informações de ID do autor da chamada não são aceitas. Desbloqueie suas informações de ID do autor da chamada e tente novamente ou ligue de outro número. Até logo.',
+            PAY_PHONES_PROMPT : "I'm sorry, the number you dialed cannot accept calls from payphones at this time. Please try your call again later. Goodbye."
+        }
+}
+
+Web\src\app\lang\common\index-en_US.js
+GREETINGS:{
+        'en_US':{
+            GREETING_MASTER_BH_THANK_YOU_1: 'Agradecemos sua ligação para {companyName}. Se souber o ramal da parte, é possível discá-lo a qualquer momento. Para acessar o Operador, pressione 0',
+            GREETING_MASTER_BH_THANK_YOU_2:' ou permaneça na linha',
+
+            GREETING_MASTER_AH_THANK_YOU_1:'Agradecemos sua ligação para {companyName}. No momento estamos fechados.',
+
+            GREETING_MASTER_DIAL_BY_NAME_PRESS:' Para acessar o diretório de discagem por nome, pressione {directoryExtension}.',
+
+            GREETING_CONNECT_PROMPT_LABEL: '"Aguarde enquanto tentamos conectá-lo."',
+
+            GREETING_VOICE_MAIL_LABEL:'Sua chamada foi encaminhada para a caixa postal de {name}. Ninguém está disponível para atender sua chamada. Após o sinal, grave sua mensagem. Quando terminar sua gravação, você pode desligar ou pressionar a tecla # para ouvir mais opções."',
+
+            GREETING_ANNOUNCEMENT_TEXT_NO_ONE_AVAILABLE:'"Ninguém está disponível para atender a sua chamada. Agradecemos sua ligação. Até logo!"',
+
+            GREETING_NOTE_CALL_BEING_RECORDED: '"Esta chamada está sendo gravada. Se não quiser ser gravado, desconecte-se neste momento."',
+
+            GREETING_CALL_RECORDING_ON_STOP_LABEL: '"Esta chamada foi gravada."',
+
+            GREETING_INTRODUCTORY_LABEL_THANK_YOU:'"Agradecemos sua ligação para {name}"',
+
+            GREETING_UNAVAILABLE_LABEL:'"Desculpe. Ninguém está disponível para atender sua chamada. Agradecemos sua ligação. Até logo!"',
+
+            GREETING_DEPARTMENT_LABEL_THANK_YOU:'"Agradecemos sua ligação para {name}. Aguarde enquanto conectamos você com um agente disponível".',
+            GREETING_DEPARTMENT_CLOSED_THANK_YOU:'"Agradecemos sua ligação para {companyName}. No momento estamos fechados. Ligue novamente durante o horário comercial. Agradecemos sua ligação. Até logo!"',
+
+            GREETING_DEPARTMENT_VOICEMAIL_LABEL:'“Todos os nossos agentes estão ocupados ajudando outros clientes. Após o sinal, grave sua mensagem. Quando terminar sua gravação, você pode desligar ou pressionar a tecla # para ouvir mais opções."',
+
+            GREETING_DEPARTMENT_UNAVAILABLE_LABEL:'"No momento estamos com grandes volumes de chamadas..."',
+
+            GREETING_DEPARTMENT_VOICEMAIL_CLOSED_LABEL:'"Agradecemos sua ligação para {name}. No momento estamos fechados. Após o sinal, deixe sua mensagem. Quando terminar sua gravação, você pode desligar ou pressionar a tecla # para ouvir mais opções."',
+
+            GREETING_INTERRUPT_PROMPT_LABEL_THANK_AND_STAY:'Obrigado, continue na linha',
+            GREETING_INTERRUPT_PROMPT_LABEL_APPRECIATE_PATIENCE_AND_STAY:'Agradecemos sua paciência, continue na linha',
+            GREETING_INTERRUPT_PROMPT_LABEL_THANK_AND_WAIT:'Obrigado, aguarde o agente',
+            GREETING_INTERRUPT_PROMPT_LABEL_APPRECIATE_PATIENCE_AND_WAIT:'Agradecemos sua paciência, aguarde o agente',
+
+            GREETING_SLG_LABEL_THANK_YOU:'"Agradecemos sua ligação para {name}."',
+            MAILBOX_FULL : 'Olá. A caixa de correio está cheia. Agradecemos sua ligação. Até logo.',
+            NUMBER_UNAVAILABLE_FROM_CALLING_AREA :  'Desculpe. Não é possível realizar uma chamada para o número que você discou na área em que você se encontra. Até logo.',
+            NO_CID_PROMPT : 'Desculpe. Chamadas que não exibem as informações de ID do autor da chamada não são aceitas. Desbloqueie suas informações de ID do autor da chamada e tente novamente ou ligue de outro número. Até logo.',
+            PAY_PHONES_PROMPT : "I'm sorry, the number you dialed cannot accept calls from payphones at this time. Please try your call again later. Goodbye."
+        }
+}
+
+Web\src\mobile\core\js\src\greetings.js
+GREETING_TEXTS: {
+        'en_US': {
+            MASTER_BUSINESS: "\"Thank you for calling %company%. If you know your party's extension you may dial it at any time. For the Operator press 0. For the Dial-by-Name Directory press %extension%.\"",
+            MASTER_BUSINESS_DBN_OFF: "\"Thank you for calling %company%. If you know your party's extension you may dial it at any time. For the Operator press 0.\"",
+            MASTER_AFTER: "\"Thank you for calling %company%. We are currently closed. For the Dial-by-Name Directory press %extension%.\"",
+            MASTER_AFTER_DBN_OFF: "\"Thank you for calling %company%. We are currently closed.\"",
+            INTRODUCTORY_USER: "\"Thank you for calling [%name%].\"",
+            INTRODUCTORY_DEPARTMENT: "\"Thank you for calling [%name%]. Please wait while we connect you to the next available agent.\"",
+            INTRODUCTORY_GROUP: '\"Agradecemos sua ligação para [%name%].\"',
+            VOICEMAIL_DEPARTMENT_BUSINESS: "\"All of our agents are busy helping other customers. At the tone, please record your message. When you've finished recording, you may hang up or press the # key for more options.\"",
+            VOICEMAIL_DEPARTMENT_AFTER: "\"Thank you for calling [%name%]. We are currently closed. At the tone, please leave a message. When you've finished recording, you may hang up or press the # key for more options.\"",
+            VOICEMAIL_GENERAL: "\"Your call has been forwarded to the voicemail for [%name%]. No one is available to take your call. At the tone, please record your message. When you've finished recording, you may hang up or press the # key for more options.\"",
+            UNAVAILABLE_GENERAL: "\"I'm sorry. No one is available to take your call. Thank you for calling. Goodbye!\"",
+            UNAVAILABLE_DEPARTMENT_GENERAL: "\"We are currently experiencing heavy call volumes...\"",
+            ANNOUNCEMENT_GENERAL: "\"No one is available to take your call. Thank you for calling. Goodbye!\"",
+            ANNOUNCEMENT_DEPARTMENT: "\"Thank you for calling [%name%]. We are currently closed. Please call back during our regular business hours. Thank you for calling. Goodbye!\"",
+            CALL_RECORDING_ON_START: "\"This call is being recorded. If you do not wish to be recorded, please disconnect at this time.\"",
+            CALL_RECORDING_ON_STOP: "\"This call has been recorded.\"",
+            INTERRUPT_PROMPT_1: "\"Thank you, Stay on the line.\"",
+            INTERRUPT_PROMPT_2: "\"Appreciate Patience, Stay on the line.\"",
+            INTERRUPT_PROMPT_3: "\"Thank you, Wait for Agent.\"",
+            INTERRUPT_PROMPT_4: "\"Appreciate Patience, Wait for Agent.\"",
+            SET_CONNECT_PROMPT: "\"Please hold while I try to connect you.\""
+        }
+}
