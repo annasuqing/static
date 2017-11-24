@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MultilevelIVR>
+  <Menu>
+    <Extension>1001</Extension>
+    <Name>Menu principal</Name>
+    <Language>Português (Brasil)</Language>
+    <Prompt>
+      <Name>company main greeting.mp3</Name>
+      <Text>Agradecemos por ligar para Acme Corporation. Para vendas nos EUA, pressione 1, para vendas no Reino Unido, pressione 2. Para conectar-se ao diretório de discagem por nome, pressione 3. Se souber o número de ramal da parte, é possível discá-lo a qualquer momento.</Text>
+      <TextToSpeech>false</TextToSpeech>
+    </Prompt>
+    <CallHandling>
+      <DigitKeyInput>
+        <Key>1</Key>
+        <Action>ForwardToExtension</Action>
+        <Destination>1002</Destination>
+      </DigitKeyInput>
+      <DigitKeyInput>
+        <Key>2</Key>
+        <Action>ForwardToExtension</Action>
+        <Destination>1003</Destination>
+      </DigitKeyInput>
+      <DigitKeyInput>
+        <Key>3</Key>
+        <Action>ConnectToDialByNameDirectory</Action>
+      </DigitKeyInput>
+      <SpecialKeyInput>
+        <Key>#</Key>
+        <Action>ReturnToRootMenu</Action>
+      </SpecialKeyInput>
+      <SpecialKeyInput>
+        <Key>*</Key>
+        <Action>RepeatMenuGreeting</Action>
+      </SpecialKeyInput>
+      <NoInput>
+        <Action>Disconnect</Action>
+      </NoInput>
+    </CallHandling>
+  </Menu>
+  <Menu>
+    <Extension>1002</Extension>
+    <Name>Menu de vendas nos EUA</Name>
+    <Language>Português (Brasil)</Language>
+    <Prompt>
+      <Text>Para vendas de hardware, pressione 1, para vendas de software, pressione 2. Para acompanhar o status do pedido, pressione 3. Para deixar uma mensagem de voz, pressione 4.</Text>
+      <TextToSpeech>true</TextToSpeech>
+    </Prompt>
+    <CallHandling>
+      <DigitKeyInput>
+        <Key>1</Key>
+        <Action>ForwardToExtension</Action>
+        <Destination>102</Destination>
+      </DigitKeyInput>
+      <DigitKeyInput>
+        <Key>2</Key>
+        <Action>ForwardToExtension</Action>
+        <Destination>103</Destination>
+      </DigitKeyInput>
+      <DigitKeyInput>
+        <Key>3</Key>
+        <Action>ForwardToExternal</Action>
+        <Destination>6501231212</Destination>
+      </DigitKeyInput>
+      <DigitKeyInput>
+        <Key>4</Key>
+        <Action>ForwardToVoiceMail</Action>
+        <Destination>104</Destination>
+      </DigitKeyInput>
+      <SpecialKeyInput>
+        <Key>#</Key>
+        <Action>ReturnToPreviousMenu</Action>
+      </SpecialKeyInput>
+      <SpecialKeyInput>
+        <Key>*</Key>
+        <Action>RepeatMenuGreeting</Action>
+      </SpecialKeyInput>
+      <NoInput>
+        <Action>ForwardToExtension</Action>
+        <Destination>1001</Destination>
+      </NoInput>
+    </CallHandling>
+  </Menu>
+  <Menu>
+    <Extension>1003</Extension>
+    <Name>Menu de vendas CA</Name>
+    <Language>Português (Brasil)</Language>
+    <Prompt>
+      <Text>Para vendas de hardware, pressione 1, para vendas de software, pressione 2. Para acompanhar o status do pedido, pressione 3. Para deixar uma mensagem de voz, pressione 4.</Text>
+      <TextToSpeech>true</TextToSpeech>
+    </Prompt>
+    <CallHandling>
+      <DigitKeyInput>
+        <Key>1</Key>
+        <Action>ForwardToExtension</Action>
+        <Destination>112</Destination>
+      </DigitKeyInput>
+      <DigitKeyInput>
+        <Key>2</Key>
+        <Action>ForwardToExtension</Action>
+        <Destination>113</Destination>
+      </DigitKeyInput>
+      <DigitKeyInput>
+        <Key>3</Key>
+        <Action>ForwardToExternal</Action>
+        <Destination>6501231234</Destination>
+      </DigitKeyInput>
+      <DigitKeyInput>
+        <Key>4</Key>
+        <Action>ForwardToVoiceMail</Action>
+        <Destination>114</Destination>
+      </DigitKeyInput>
+      <SpecialKeyInput>
+        <Key>#</Key>
+        <Action>ReturnToPreviousMenu</Action>
+      </SpecialKeyInput>
+      <SpecialKeyInput>
+        <Key>*</Key>
+        <Action>RepeatMenuGreeting</Action>
+      </SpecialKeyInput>
+      <NoInput>
+        <Action>ForwardToExtension</Action>
+        <Destination>1001</Destination>
+      </NoInput>
+    </CallHandling>
+  </Menu>
+</MultilevelIVR>

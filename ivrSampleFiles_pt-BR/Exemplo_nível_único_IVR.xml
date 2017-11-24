@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MultilevelIVR>
+  <Menu>
+    <Extension>1001</Extension>
+    <Name>Menu individual</Name>
+    <Language>Português (Brasil)</Language>
+    <Prompt>
+      <Text>Agradecemos sua ligação para a Acme Corporation. Para falar com o Departamento de vendas, pressione 1. Para deixar uma mensagem, pressione 2. Para falar com o diretório de discagem por nome, pressione 3. Para agendar um compromisso, pressione 4. Se souber o número de ramal da parte, é possível discá-lo a qualquer momento.</Text>
+      <TextToSpeech>true</TextToSpeech>
+    </Prompt>
+    <CallHandling>
+      <DigitKeyInput>
+        <Key>1</Key>
+        <Action>ForwardToExtension</Action>
+        <Destination>102</Destination>
+      </DigitKeyInput>
+      <DigitKeyInput>
+        <Key>2</Key>
+        <Action>ForwardToVoiceMail</Action>
+        <Destination>101</Destination>
+      </DigitKeyInput>
+      <DigitKeyInput>
+        <Key>3</Key>
+        <Action>ConnectToDialByNameDirectory</Action>
+      </DigitKeyInput>
+      <DigitKeyInput>
+        <Key>4</Key>
+        <Action>ForwardToExternal</Action>
+        <Destination>6501231212</Destination>
+      </DigitKeyInput>
+      <SpecialKeyInput>
+        <Key>#</Key>
+        <Action>ReturnToRootMenu</Action>
+      </SpecialKeyInput>
+      <SpecialKeyInput>
+        <Key>*</Key>
+        <Action>RepeatMenuGreeting</Action>
+      </SpecialKeyInput>
+      <NoInput>
+        <Action>ForwardToExtension</Action>
+        <Destination>102</Destination>
+      </NoInput>
+    </CallHandling>
+  </Menu>
+</MultilevelIVR>
